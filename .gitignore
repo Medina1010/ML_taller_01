@@ -1,4 +1,5 @@
 bld
+newton_rhapson
 taylor
 rand_gen
 *.csv
