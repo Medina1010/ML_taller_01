@@ -15,6 +15,6 @@ mean: 0.514378
 var: 0.079439
 asymetry: -0.041304
 ```
-| ![[logistic-list.png]] | ![[camp-list.png]] |
+| ![histograma mapeo logistico](logistic-list.png) | ![histograma mapeo de tienda de campaña](camp-list.png) |
 | - | - |
 ## Newton-Rhapson
