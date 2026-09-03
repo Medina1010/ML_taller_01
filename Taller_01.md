@@ -20,6 +20,7 @@ asymetry=-0.041304
 
 | ![histograma mapeo logistico](logistic-list.png) | ![histograma mapeo de tienda de campaña](camp-list.png) |
 | - | - |
+- [codigo](rand_gen.c).
 ## Taylor
 - Realizar aproximaciones de Taylor para la función exponencial y una función de nuestra elección (*coseno*).
 ### resultados
@@ -35,4 +36,5 @@ cos(1) = 0.540303
 | - | - |
 | $e^x$ | ![grafico exponencial](exp.png) |
 | $\cos (x)$ | ![grafico coseno](cos.png) |
+- [codigo](taylor.c).
 ## Newton-Rhapson
