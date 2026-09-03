@@ -45,8 +45,8 @@ Se calcularon multiples aproximaciones de taylor de diferentes grados y se muest
 Se realizó una función *taylor*, que recibe los coeficientes de la n-esima derivada en el punto al cual se realiza la expasión.
 ## Newton-Rhapson
 - Implementar el metodo de Newton-Rhapson para aproximar raices y usarlo para las siguientes funciones:
-    - $f(x)=x^2-612, f^\prime(x)=2x$
-    - $f(x)=\cos(x)-x^3, f^\prime(x)=-\sin(x)-3x^2$
+    - $f(x)=x^2-612, f'(x)=2x$
+    - $f(x)=\cos(x)-x^3, f'(x)=-\sin(x)-3x^2$
 ### resultados
 ``` md
 # raiz de x^2 - 612
