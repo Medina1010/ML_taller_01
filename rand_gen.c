@@ -1,7 +1,7 @@
 #define ANALYSIS_IMPL
 #include "analysis.h"
 
-#define R 3.999999
+#define R 4
 #define MU 1.9999999
 
 float logistic_seed;
