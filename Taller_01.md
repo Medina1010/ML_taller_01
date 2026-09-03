@@ -20,7 +20,7 @@ asymetry=-0.041304
 
 | ![histograma mapeo logistico](logistic-list.png) | ![histograma mapeo de tienda de campaña](camp-list.png) |
 | - | - |
-- [codigo](rand_gen.c).
+- ![codigo](rand_gen.c).
 ## Taylor
 - Realizar aproximaciones de Taylor para la función exponencial y una función de nuestra elección (*coseno*).
 ### resultados
