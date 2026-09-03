@@ -17,6 +17,7 @@ var=0.079439
 asymetry=-0.041304
 ```
 - histogramas
+
 | ![histograma mapeo logistico](logistic-list.png) | ![histograma mapeo de tienda de campaña](camp-list.png) |
 | - | - |
 ## Taylor
@@ -29,8 +30,9 @@ e = 2.718282
 cos(1) = 0.540303
 ```
 - graficas
+
 | funcion | grafico |
 | - | - |
 | $e^x$ | ![grafico exponencial](exp.png) |
-| $\cos x$ | ![grafico coseno](cos.png) |
+| $\cos (x)$ | ![grafico coseno](cos.png) |
 ## Newton-Rhapson
