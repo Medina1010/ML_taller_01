@@ -31,10 +31,12 @@ e = 2.718282
 cos(1) = 0.540303
 ```
 - graficas
+Se calcularon multiples aproximaciones de taylor de diferentes grados y se muestran en la misma grafica para la función exponencial y coseno.
 
 | funcion | grafico |
 | - | - |
 | $e^x$ | ![grafico exponencial](exp.png) |
 | $\cos (x)$ | ![grafico coseno](cos.png) |
-- [codigo](taylor.c).
+- [codigo](taylor.c)
+Se realizó una función *taylor*, que recibe los coeficientes de la n-esima derivada en el punto al cual se realiza la expasión.
 ## Newton-Rhapson

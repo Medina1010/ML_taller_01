@@ -3,20 +3,20 @@
 
 #define N 10 + 1
 
-float taylor (float center, floats terms, float x) {
-	float result = 0;
-	float xn = 1;
-	for (size_t i = 0; i < terms.count; i++) {
-		result += terms.data[i] * xn;
-		xn *= (x - center);
-	}
-	return result;
-}
-
 int factorial(int n) {
 	int i = 1;
 	for (; n > 1; n--) i*=n;
 	return i;
+}
+
+float taylor (float center, floats terms, float x) {
+	float result = 0;
+	float xn = 1;
+	for (size_t i = 0; i < terms.count; i++) {
+		result += terms.data[i] * xn / factorial(i);
+		xn *= (x - center);
+	}
+	return result;
 }
 
 void save_values (floats x, floats y, char* path) {
@@ -31,14 +31,12 @@ int main (void) {
 	floats exponent_terms = {0};
 	floats cos_terms = {0};
 	float cos_secuent[] = {1,0,-1,0};
-	float faci;
 	floats exp_x ={0}, exp_y={0}, cos_x={0}, cos_y={0};
 	float x_v;
 	char path[32];
 	for(int i = 0; i < N; i++) {
-		faci = 1.0/factorial(i);
-		floats_append(&exponent_terms, faci);
-		floats_append(&cos_terms, cos_secuent[i % 4]*faci);
+		floats_append(&exponent_terms, 1.0);
+		floats_append(&cos_terms, cos_secuent[i % 4]);
 		exp_x.count =0;
 		exp_y.count = 0;
 		cos_x.count = 0;
