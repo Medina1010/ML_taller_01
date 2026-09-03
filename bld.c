@@ -9,8 +9,19 @@ void cmd (char *prompt) {
 }
 
 int main (int argc, char** argv) {
+	// recompile
+	if (argc == 1) {
+		cmd("gcc -o bld bld.c");
+		cmd("./bld R");
+		exit(0);
+	}
+	// random
 	cmd("gcc -Wall -Wextra -lm -o rand_gen rand_gen.c");
 	cmd("./rand_gen");
-	cmd("gnuplot graph.gp");
+	cmd("gnuplot rand.gp");
+	// taylor
+	cmd("gcc -Wall -Wextra -lm -o taylor taylor.c");
+	cmd("./taylor");
+	cmd("gnuplot taylor.gp");
 	return 0;
 }
