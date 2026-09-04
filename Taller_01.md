@@ -18,7 +18,7 @@ asymetry=-0.041304
 ```
 - histogramas
 
-Se realizó el histograma usando el siguiente [script](rand_gen.gp) de *gnuplot*.
+Se realizó el histograma usando el siguiente [script](rand.gp) de *gnuplot*.
 
 | ![histograma mapeo logistico](logistic-list.png) | ![histograma mapeo de tienda de campaña](camp-list.png) |
 | - | - |
